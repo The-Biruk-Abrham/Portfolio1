@@ -3,86 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects by Biruk Abrham, Software Engineering student. Details, screenshots, and summaries of completed software projects.">
+    <meta name="keywords" content="Biruk Abrham, projects, portfolio, software engineering, Python, C++, HTML">
+    <meta name="author" content="Biruk Abrham">
     <title>Projects | Biruk Abrham</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
 
-    <p>
-        <a href="index.html">← Back to Home</a> | 
-        <a href="index.html#contact">Contact Me</a>
-    </p>
+    <header>
+        <nav>
+            <a href="index.html">← Back to Home</a> | 
+            <a href="index.html#contact">Contact Me</a>
+        </nav>
+        <h1>My Projects</h1>
+        <p>Details of every project I have built.</p>
+    </header>
 
-    <h1>My Projects</h1>
-    <p>Details of every project I have built.</p>
+    <main>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <caption>Project Summary</caption>
+            <thead>
+                <tr>
+                    <th>Project</th>
+                    <th>Language</th>
+                    <th>Year</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Simple Calculator</td>
+                    <td>Python</td>
+                    <td>2024</td>
+                    <td><a href="#calculator">View Details</a> | <a href="https://github.com/The-Biruk-Abrham">GitHub</a></td>
+                </tr>
+                <tr>
+                    <td>Library Management System</td>
+                    <td>C++</td>
+                    <td>2024</td>
+                    <td><a href="#library">View Details</a> | <a href="https://github.com/The-Biruk-Abrham">GitHub</a></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Total projects</th>
+                    <th>2</th>
+                </tr>
+            </tfoot>
+        </table>
 
-    <table border="1" cellpadding="8" cellspacing="0">
-        <caption>Project Summary</caption>
-        <thead>
-            <tr>
-                <th>Project</th>
-                <th>Language</th>
-                <th>Year</th>
-                <th>Link</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Simple Calculator</td>
-                <td>Python</td>
-                <td>2024</td>
-                <td><a href="#calculator">View Details</a> | <a href="https://github.com/The-Biruk-Abrham">GitHub</a></td>
-            </tr>
-            <tr>
-                <td>Library Management System</td>
-                <td>C++</td>
-                <td>2024</td>
-                <td><a href="#library">View Details</a> | <a href="https://github.com/The-Biruk-Abrham">GitHub</a></td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th colspan="3">Total projects</th>
-                <th>2</th>
-            </tr>
-        </tfoot>
-    </table>
+        <article id="calculator">
+            <h3>Simple Calculator</h3>
+            <img src="images/project-calculator.png" alt="Screenshot of the calculator showing 12 + 30 = 42" width="400" height="250">
+            <p>A calculator that adds, subtracts, multiplies and divides.</p>
+            <h4>Technologies Used</h4>
+            <ul>
+                <li>Python</li>
+                <li>Tkinter</li>
+                <li>Git &amp; GitHub</li>
+            </ul>
+            <h4>How I built it</h4>
+            <ol>
+                <li>Designed the user interface and button layout</li>
+                <li>Implemented arithmetic calculation functions</li>
+                <li>Added input validation to handle division by zero</li>
+                <li>Created unit tests for basic operations</li>
+            </ol>
+        </article>
 
-    <h3 id="calculator">Simple Calculator</h3>
-    <img src="images/project-calculator.png" alt="Screenshot of the calculator showing 12 + 30 = 42" width="400" height="250">
-    <p>A calculator that adds, subtracts, multiplies and divides.</p>
-    <h4>Technologies Used</h4>
-    <ul>
-        <li>Python</li>
-        <li>Tkinter</li>
-        <li>Git &amp; GitHub</li>
-    </ul>
-    <h4>How I built it</h4>
-    <ol>
-        <li>Designed the user interface and button layout</li>
-        <li>Implemented arithmetic calculation functions</li>
-        <li>Added input validation to handle division by zero</li>
-        <li>Created unit tests for basic operations</li>
-    </ol>
+        <article id="library">
+            <h3>Library Management System</h3>
+            <img src="images/project-library.png" alt="Screenshot of the Library Management System console" width="400" height="250">
+            <p>A console program for borrowing and returning books.</p>
+            <h4>Technologies Used</h4>
+            <ul>
+                <li>C++</li>
+                <li>File Handling / I/O</li>
+                <li>Data Structures</li>
+            </ul>
+            <h4>How I built it</h4>
+            <ol>
+                <li>Designed book and member class structures</li>
+                <li>Implemented file-based storage for book records</li>
+                <li>Added search, checkout, and return logic</li>
+                <li>Handled overdue fee calculations and input validation</li>
+            </ol>
+        </article>
 
-    <h3 id="library">Library Management System</h3>
-    <img src="images/project-library.png" alt="Screenshot of the Library Management System console" width="400" height="250">
-    <p>A console program for borrowing and returning books.</p>
-    <h4>Technologies Used</h4>
-    <ul>
-        <li>C++</li>
-        <li>File Handling / I/O</li>
-        <li>Data Structures</li>
-    </ul>
-    <h4>How I built it</h4>
-    <ol>
-        <li>Designed book and member class structures</li>
-        <li>Implemented file-based storage for book records</li>
-        <li>Added search, checkout, and return logic</li>
-        <li>Handled overdue fee calculations and input validation</li>
-    </ol>
+        <p>Official HTML standard: <a href="https://www.w3.org/">W3C HTML Reference</a></p>
+    </main>
 
-    <p>Official HTML standard: <a href="https://www.w3.org/">W3C HTML Reference</a></p>
+    <footer>
+        <p>Copyright 2026 Biruk Abrham. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
