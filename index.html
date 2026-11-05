@@ -22,6 +22,7 @@
             <p><a href="#contact" onclick="document.getElementById('hireDialog').close()">Send me a message</a> or <a href="files/cv.pdf" download>download my CV</a>.</p>
             <button type="button" onclick="document.getElementById('hireDialog').close()">Close</button>
         </dialog>
+
         <nav>
             <a href="#about">About</a> |
             <a href="#skills">Skills</a> |
@@ -29,8 +30,7 @@
             <a href="#education">Education</a> |
             <a href="#contact">Contact</a> |
             <a href="projects.html">All Projects</a>
-        </nav>
-    </header>
+        </nav>    </header>
 
     <main>
         <section id="about">
@@ -72,7 +72,7 @@
                 </li>
                 <li>Web Development
                     <ul type="circle">
-                        <li>HTML</li>
+                        <li><abbr title="HyperText Markup Language">HTML</abbr></li>
                         <li>CSS (learning)</li>
                         <li>JavaScript (next)</li>
                     </ul>
@@ -160,7 +160,7 @@ int main() {
         <section id="education">
             <h2>Education</h2>
             <h3>BSc in Software Engineering</h3>
-            <p>Addis Ababa Science and Technology University, 2023 – present</p>
+            <p><abbr title="Addis Ababa Science and Technology University">AASTU</abbr>, <time datetime="2023-09">September 2023</time> – present</p>
             <p>
                 <label for="degree">Degree progress:</label>
                 <progress id="degree" value="60" max="100">60%</progress> 60%
@@ -230,10 +230,10 @@ int main() {
             <h2>Contact</h2>
             <p>Address:<br>Addis Ababa,<br>Ethiopia</p>
             <p>Email: <a href="mailto:birukabrham777@gmail.com">birukabrham777@gmail.com</a></p>
-            <p>Phone: <a href="tel:+251976760975">+251 976 760 975</a></p>
+            <p>Phone: <a href="tel:+251976760975">+251&nbsp;976&nbsp;760&nbsp;975</a></p>
             <p>GitHub: <a href="https://github.com/The-Biruk-Abrham">github.com/The-Biruk-Abrham</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/biruk-abrham-661874225/">linkedin.com/in/biruk-abrham-661874225</a></p>
-            <p><a href="files/cv.pdf" download>Download my CV (PDF)</a></p>
+            <p><a href="files/cv.pdf" download>Download my <abbr title="Curriculum Vitae">CV</abbr> (PDF)</a></p>
 
             <h3>Where I study</h3>
             <iframe src="https://maps.google.com/maps?q=Addis+Ababa+Science+and+Technology+University&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
@@ -321,7 +321,8 @@ int main() {
     </main>
 
     <footer>
-        <p>Copyright 2026 Biruk Abrham. All rights reserved.</p>
+        <p>&copy; 2026 Biruk Abrham. All rights reserved.</p>
+        <p>Last updated: <time datetime="2026-11-05">November 2026</time>.</p>
     </footer>
 
 </body>
